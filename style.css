@@ -1,0 +1,99 @@
+body{
+    font-family: 'Caveat', cursive;
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    margin: 30px 30px 0 30px;
+    background-color: faf9f6;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1;
+}
+
+h1{
+    font-size: 3rem;
+    height: 150px;
+    width: 800px;
+}
+
+.imglogo{
+    height: 30px; 
+    width: 160px;
+}
+
+.beauty{
+    width: 40%;
+    font-size: 12px;
+    position: absolute;
+}
+
+.flower{
+    height: 135px;
+    width: 200px;
+    float: left;
+    margin-right: 25px;
+}
+
+.bParagraph{
+    font-weight: 600;
+}
+
+.construction{
+    width: 40%;
+    margin-left: 60%;
+    font-size: 12px;
+
+}
+
+.constimg{
+    height: 130px;
+    float: left;
+    margin-right: 25px;
+}
+
+.cParagraph{
+    font-weight: 600;
+}
+
+@media (max-width: 680px) {
+    .logo{
+        width: 100px;
+    }
+    h1 {
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .beauty{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .construction{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .flower{
+        width: 100px;
+        display: inline;
+        margin-bottom: 10px;
+        object-fit: cover;
+    }
+    .constimg{
+        width: 100px;
+        display: inline;
+        margin-bottom: 10px;
+        object-fit: cover;
+    }
+}
+
+footer{
+    text-align: right;
+    font-weight: 300;
+    margin-top: auto;
+    font-size: small;
+}
